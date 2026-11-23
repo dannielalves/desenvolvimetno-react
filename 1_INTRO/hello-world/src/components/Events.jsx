@@ -9,6 +9,9 @@ const Events = () => {
             <div>
                 <button onClick={handleMyEvent}>CLique aqui!</button>
             </div>
+            <div>
+                <button onClick={() => console.log('Clicou também!')}>Clique aqui também!</button>
+            </div>
         </div>
     )
 
