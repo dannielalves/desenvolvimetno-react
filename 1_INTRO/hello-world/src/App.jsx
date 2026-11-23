@@ -5,6 +5,7 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import FirstComponent from './components/FirstComponent'
 import TemplateExpressions from './components/TemplatesExpressions'
+import Events from './components/Events'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -31,6 +32,7 @@ function App() {
       </nav>
       <FirstComponent/>
       <TemplateExpressions/>
+      <Events/>
     </>
   )
 
