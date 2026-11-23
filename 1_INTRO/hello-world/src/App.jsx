@@ -3,6 +3,7 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
+import FirstComponent from './components/FirstComponent'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,8 +29,10 @@ function App() {
           </li>
         </ul>
       </nav>
+      <FirstComponent/>
     </>
   )
+
 }
 
 export default App
