@@ -37,8 +37,9 @@ const ListRender = () => {
                 ))}
            </ul>
            <div>
-            <h1>Restam {users.length} usurários</h1>
-            <button className="btnDelete" onClick={deleteRandom}>Delete Usuario Aleatório</button>
+            {users.length === 1 && <h1>Ganhador(a): {users[0].name} </h1>}
+            {users.length > 1 && <h1>Restam {users.length} usurários</h1>}
+            {users.length > 1 && <button className="btnDelete" onClick={deleteRandom}>Delete Usuario Aleatório</button>}
            </div>
         </>
     )
