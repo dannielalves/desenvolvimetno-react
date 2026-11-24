@@ -182,3 +182,17 @@
     border-right-color: var(--border);
   }
 }
+
+ul {
+
+}
+
+li {
+  list-style: none;
+}
+
+.tituloLista {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: blanchedalmond;
+}
