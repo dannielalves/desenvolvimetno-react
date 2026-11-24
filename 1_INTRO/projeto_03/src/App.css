@@ -196,3 +196,9 @@ li {
   font-size: 1.1em;
   color: blanchedalmond;
 }
+
+.btnDelete {
+  padding: 10px;
+  width: 150px;
+  
+}
